@@ -2,7 +2,7 @@ name: repo-sync
 
 on:
   workflow_dispatch:
-  schedule:
+  # schedule:
     - cron: '0 1 * * 1'
     # UTC时区，比我们东八区早8小时，上面示例为：每周一9点。
 
